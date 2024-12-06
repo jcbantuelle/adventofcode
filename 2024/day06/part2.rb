@@ -1,5 +1,3 @@
-require 'pp'
-
 def clone_guard()
   guard = $original_guard.dup
   guard[:mod] = $original_guard[:mod].dup
